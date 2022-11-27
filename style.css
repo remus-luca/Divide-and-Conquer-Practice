@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  position: sticky;
+  height: 100px;
+  border-top: 7px solid lightseagreen;
+  box-shadow: 0 3px 10px rgba(77, 77, 77, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section {
+  height: 100px;
+}
+
+section:nth-child(1),
+section:nth-child(3) {
+  background-color: rgb(255, 255, 255);
+  flex-grow: 1;
+}
+
+section:nth-child(2) {
+  flex-grow: 6;
+}
+
+.navbar {
+  position: relative;
+  left: 60px;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar li:hover {
+  background-color: lightseagreen;
+}
+
+.navbar li:hover a {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  line-height: 100px;
+}
+#courses1 {
+  position: absolute;
+  top: 175px;
+  right: 850px;
+  font-size: 18px;
+  width: 370px;
+  font-family: "Open Sans", sans-serif;
+  height: 390px;
+  border-style: ridge;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+#courses2 {
+  position: absolute;
+  top: 175px;
+  right: 450px;
+  font-size: 18px;
+  width: 370px;
+  font-family: "Open Sans", sans-serif;
+  height: 390px;
+  border-style: ridge;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+#courses3 {
+  position: absolute;
+  top: 175px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  right: 50px;
+  width: 370px;
+  height: 390px;
+  border-style: ridge;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+#logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+#logo:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+#logo:hover a {
+  color: white;
+}
+#logo a:hover {
+  background-color: lightseagreen;
+  font-size: 18px;
+  color: white;
+}
+
+#tel {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  padding: 0;
+  display: flex;
+}
+#tel a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+#tel:hover {
+  background-color: lightseagreen;
+}
+#tel:hover a {
+  color: white;
+}
+#tel a:hover {
+  background-color: lightseagreen;
+  font-size: 18px;
+  color: white;
+}
+#number {
+  border-radius: 60%;
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  top: 10px;
+  left: 35px;
+  position: relative;
+  background: rgb(25, 57, 197);
+  color: white;
+  text-align: center;
+}
+#head-title {
+  left: 35px;
+  padding-top: 15px;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+#para {
+  font-family: "Open Sans", sans-serif;
+  left: 35px;
+  position: relative;
+  padding-right: 60px;
+  padding-top: 15px;
+}
